@@ -1,0 +1,631 @@
+{
+	"id": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+	"name": "DigitalMediaTest",
+	"description": "",
+	"order": [
+		"77a044ee-5dc1-b9e0-ca35-9b57572242f6",
+		"36885155-5618-9615-4937-443582bdb8e3",
+		"fe77d156-1d0c-d4d6-253a-e3ba4451a95a",
+		"5bbc14e8-1597-23a8-f014-69b18b796abd",
+		"df096533-c46c-1100-3aea-2c07080621c9",
+		"8bacb51d-9e42-8185-3eeb-e7c02c10797d",
+		"11a26d3e-8821-da02-955b-ff05aebadddc",
+		"3c7be00c-15f8-d242-3917-cf5f27064c09",
+		"b98a7c65-a46b-2bf4-55eb-2e4500a655c7",
+		"1975bb68-e517-ac30-1353-f69a402b3157",
+		"dac99782-ad20-0e86-8757-9c3785770af9",
+		"ddf1be62-a59e-108c-f825-39a839372efe",
+		"429b7e86-595c-dd2c-4a95-6601578ca4a5",
+		"ea7037bc-6188-9130-7b9c-0ec7d0532df6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1587274180173,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "11a26d3e-8821-da02-955b-ff05aebadddc",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: a5aab2350ca84bbbb72ec1e9fc3bf3fb\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "a5aab2350ca84bbbb72ec1e9fc3bf3fb",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1/digital_content/create_option",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "option[type]",
+					"value": "season",
+					"description": "movie/season drop down",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "option[movie_season_id]",
+					"value": "1",
+					"description": "As per option dropdown popup for seasons/movies.",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "option[video_quality]",
+					"value": "HD",
+					"description": "HD/SD dropdown",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "option[price]",
+					"value": "23.44",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587284365817,
+			"name": "Create Option",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		},
+		{
+			"id": "1975bb68-e517-ac30-1353-f69a402b3157",
+			"headers": "Authorization: a5aab2350ca84bbbb72ec1e9fc3bf3fb\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "a5aab2350ca84bbbb72ec1e9fc3bf3fb",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1/read_data/seasons",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587285660910,
+			"name": "List Seasons",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		},
+		{
+			"id": "36885155-5618-9615-4937-443582bdb8e3",
+			"headers": "Authorization: ea91ccb5e31b4dc493f137eafb591f95\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "ea91ccb5e31b4dc493f137eafb591f95",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1/processes/appointments",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587276050656,
+			"name": "http://localhost:4000/api/v1/processes/appointments",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		},
+		{
+			"id": "3c7be00c-15f8-d242-3917-cf5f27064c09",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: a5aab2350ca84bbbb72ec1e9fc3bf3fb\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "a5aab2350ca84bbbb72ec1e9fc3bf3fb",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1/library/create_library",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "library[type]",
+					"value": "season",
+					"description": "movie/season drop down",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "library[movie_season_id]",
+					"value": "1",
+					"description": "As per option dropdown popup for seasons/movies.",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "library[option_id]",
+					"value": "1",
+					"description": "As per the movie_session_id drop down option id dropdown appears.",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587293084837,
+			"name": "Create Library",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		},
+		{
+			"id": "429b7e86-595c-dd2c-4a95-6601578ca4a5",
+			"headers": "Authorization: a5aab2350ca84bbbb72ec1e9fc3bf3fb\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "a5aab2350ca84bbbb72ec1e9fc3bf3fb",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1/read_data/movie_season?type=movie",
+			"queryParams": [
+				{
+					"key": "type",
+					"value": "movie",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587294940187,
+			"name": "Movie/Season list as per type for dropdown",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		},
+		{
+			"id": "5bbc14e8-1597-23a8-f014-69b18b796abd",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1/users/sign_in",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user[email]",
+					"value": "admin@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user[password]",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587277905478,
+			"name": "Sign In",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		},
+		{
+			"id": "77a044ee-5dc1-b9e0-ca35-9b57572242f6",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1/users/sign_up",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user[first_name]",
+					"value": "Akashddd",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user[last_name]",
+					"value": "Pat",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user[email]",
+					"value": "akash@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user[password]",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user[password_confirmation]",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587275560137,
+			"name": "Sign Up",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		},
+		{
+			"id": "8bacb51d-9e42-8185-3eeb-e7c02c10797d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: a5aab2350ca84bbbb72ec1e9fc3bf3fb\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "a5aab2350ca84bbbb72ec1e9fc3bf3fb",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1/digital_content/create_episode",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "episode[title]",
+					"value": "The Chemistry",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "episode[plot]",
+					"value": "Walter White",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "episode[season_id]",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587286593910,
+			"name": "Create Episode",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		},
+		{
+			"id": "b98a7c65-a46b-2bf4-55eb-2e4500a655c7",
+			"headers": "Authorization: a5aab2350ca84bbbb72ec1e9fc3bf3fb\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "a5aab2350ca84bbbb72ec1e9fc3bf3fb",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1/read_data/movies",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587285607215,
+			"name": "List Movies",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		},
+		{
+			"id": "dac99782-ad20-0e86-8757-9c3785770af9",
+			"headers": "Authorization: a5aab2350ca84bbbb72ec1e9fc3bf3fb\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "a5aab2350ca84bbbb72ec1e9fc3bf3fb",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1/read_data/movies_seasons",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587285693180,
+			"name": "List Movie Seasons",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		},
+		{
+			"id": "ddf1be62-a59e-108c-f825-39a839372efe",
+			"headers": "Authorization: a5aab2350ca84bbbb72ec1e9fc3bf3fb\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "a5aab2350ca84bbbb72ec1e9fc3bf3fb",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1/read_data/user_library",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587294883075,
+			"name": "Show user's libraries",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		},
+		{
+			"id": "df096533-c46c-1100-3aea-2c07080621c9",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: a5aab2350ca84bbbb72ec1e9fc3bf3fb\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "a5aab2350ca84bbbb72ec1e9fc3bf3fb",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1/digital_content/create_season",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "season[title]",
+					"value": "Breking Bad",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "season[plot]",
+					"value": "A once loyal father and chemistry teacher, Walter White, turns to a life of crime due to developing stage 3 terminal lung cancer. ... Breaking Bad follows protagonist Walter White, a chemistry teacher who lives in New Mexico with his wife and teenage son who has cerebral palsy.",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "season[no_of_edposodes]",
+					"value": "50",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587284323160,
+			"name": "Create Season",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		},
+		{
+			"id": "ea7037bc-6188-9130-7b9c-0ec7d0532df6",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:4000/api/v1/read_data/movie_season_option?type=season&id=1",
+			"queryParams": [
+				{
+					"key": "type",
+					"value": "season",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587297536472,
+			"name": "Movie/Season options for dropdown",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		},
+		{
+			"id": "fe77d156-1d0c-d4d6-253a-e3ba4451a95a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: a5aab2350ca84bbbb72ec1e9fc3bf3fb\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "a5aab2350ca84bbbb72ec1e9fc3bf3fb",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/v1/digital_content/create_movie",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "movie[title]",
+					"value": "EndGame",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "movie[plot]",
+					"value": "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe.",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1587284320198,
+			"name": "Create Movie",
+			"description": "",
+			"collectionId": "12ab1c04-133b-c69d-5127-1c5feec7d8be",
+			"responses": []
+		}
+	]
+}

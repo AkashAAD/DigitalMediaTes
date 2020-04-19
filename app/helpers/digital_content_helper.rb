@@ -1,0 +1,2 @@
+module DigitalContentHelper
+end
